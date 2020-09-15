@@ -3,6 +3,9 @@ class Project {
     constructor(){
     }
 
+    test(value){
+    }
+
     testFunction(){
         this.mockFunction()
         return this.stubFunction()
