@@ -1,7 +1,7 @@
 class Project {
 
     fizzBuzz(value){
-        if(value === 15){
+        if(value%15 === 0){
             return 'FizzBuzz';
         }
         if(value%5 === 0){
